@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicode Portfolio</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width"> 
+            <div class="logo"><a href="#">Portfolio</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <span id = "home">
+    </span>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="column right">
+                    <img  src="tp.jpg" alt="">
+                </div>
+                <div class="text-1">Hello folks,my name is</div>
+                <div class="text-2">Prerak Patel</div>
+                <div class="text-3">And I'm a <span>Student</span></div>
+            </div>
+        </div>
+    </section>
+    <span id = "about">
+    </span>
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="banner.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Prerak and I'm a <span class="typing-2"></span></div>
+                    <p>Student Studying in DJ SANGHVI COLLEGE OF ENGINEERING. I am pursuing B tech in Computer Sciemce and Engineering.</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <span id = "skills">
+    </span>
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & experiences.</div>
+                <p>I like coding very much.I wanted to learn many coding languages, these will help a lot in career. Some of my learnt languages are:</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Java</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line java"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Node</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="line node"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<span id = "contact">
+</span>
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p>Meet me at Dj sanghvi college of engineering.</p>                
+                <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Prerak Patel</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Mumbai, India</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">prerakpatel1301@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <section class="contact-me">
+                    <p class="contact-title">Message Me</p>
+                    <form action="" name="submit-form" onsubmit="return validateForm()" method="post"> 
+        
+                        <div class="formdesign" id="name">
+                            <p class="name-form-title"></span>Full name:</p> <input type="text" name="name" placeholder="Name"> <em><span class="formerror" id="errorname1"></span></em>
+                        </div>
+        
+                        <div class="formdesign" id="email">
+                            <p class="name-form-title"></span>Email id:</p> <input type="text" name="emailid" placeholder="Email"> <em><span class="formerror" id="errorname2"></span></em>
+                        </div>
+        
+                        <div class="formdesign" id="message">
+                            <p class="name-form-title"></span>Message:</p> <input type="text" name="message" placeholder="Message"> <em><span class="formerror" id="errorname3"></span></em>
+                        </div>
+        
+                        <input type="submit" class="butn" type="button" > 
+        
+                    </form>
+        
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
