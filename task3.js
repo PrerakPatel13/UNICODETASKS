@@ -7,8 +7,8 @@ const options = {
   method: 'GET',
   url: 'https://corona-virus-world-and-india-data.p.rapidapi.com/api',
   headers: {
-    'X-RapidAPI-Key': '42f8da5bc8msh7b99250d3029246p1d0fe4jsnd53a8d9fc18b',
-    'X-RapidAPI-Host': 'corona-virus-world-and-india-data.p.rapidapi.com'
+    'X-RapidAPI-Key': '',
+    'X-RapidAPI-Host': ''
   }
 };
 fetch('https://corona-virus-world-and-india-data.p.rapidapi.com/api',options)
